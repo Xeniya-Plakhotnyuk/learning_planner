@@ -1,0 +1,46 @@
+body{
+background-image: url(./Components/Ship.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.plan{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 228, 160);
+  text-align: center;
+}
+
+button{
+  width: 40%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.wholePlan{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.myInput{
+  padding: 30px;
+  background-color: rgb(255, 131, 131);
+  margin-top: 20px;
+  width: 40%;
+  align-self: center;
+}
+
+textarea{
+  margin: 30px;
+  padding: 20px;
+}
+
+.selected{
+  background-color: rgb(121, 252, 252);
+}
+
+.deafult{
+  background-color: rgb(89, 83, 96);
+  color: #fff;
+}
