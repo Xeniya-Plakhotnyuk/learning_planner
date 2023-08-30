@@ -23,7 +23,7 @@ setMealPlans(mealPlans.filter(({id})=>id !== mealId))
 }
 
   return (
-    <div >
+    <div className='container' >
       <MyList 
       mealPlans={mealPlans} 
       addMeal = {addMeal} 
@@ -31,7 +31,7 @@ setMealPlans(mealPlans.filter(({id})=>id !== mealId))
       selectedDay={selectedDay}
       setSelectedDay={setSelectedDay}
         />
-      <MyIngridients />
+      <MyIngridients selectedDay={selectedDay} />
     </div>
   );
 }

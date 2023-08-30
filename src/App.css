@@ -4,9 +4,14 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
 .plan{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   background-color: rgb(255, 228, 160);
   text-align: center;
@@ -15,7 +20,7 @@ background-repeat: no-repeat;
 button{
   width: 40%;
   padding: 20px;
-  margin: 0 auto;
+  
 }
 
 .wholePlan{
@@ -27,13 +32,13 @@ button{
   padding: 30px;
   background-color: rgb(255, 131, 131);
   margin-top: 20px;
-  width: 40%;
   align-self: center;
 }
 
 textarea{
-  margin: 30px;
+  margin: 10px;
   padding: 20px;
+  min-width: 400px;
 }
 
 .selected{

@@ -1,4 +1,4 @@
-const MyIngridients = () =>{
+const MyIngridients = ({selectedDay}) =>{
     return(
         <div className="wholePlan">
     
@@ -6,6 +6,8 @@ const MyIngridients = () =>{
         type="text"
         className="myInput"
         placeholder="Your text here..."
+        id="title"
+        value={selectedDay.title}
     />
 
     <textarea
